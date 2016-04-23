@@ -1,0 +1,32 @@
+ENSG00000128274	A4GALT	A14GALT,Gb3S,P(k)	alpha 1,4-galactosyltransferase
+ENSG00000115977	AAK1	DKFZp686K16132,KIAA1048	AP2 associated kinase 1
+ENSG00000127837	AAMP		angio-associated, migratory cell protein
+ENSG00000108825	AARSD1	MGC2744	alanyl-tRNA synthetase domain containing 1
+ENSG00000108270	AATF	CHE-1,CHE1,DED	apoptosis antagonizing transcription factor
+ENSG00000103222	ABCC1	GS-X,MRP,MRP1	ATP-binding cassette, sub-family C (CFTR/MRP), member 1
+ENSG00000164163	ABCE1	OABP,RLI,RNASEL1,RNASELI,RNS4I	ATP-binding cassette, sub-family E (OABP), member 1
+ENSG00000033050	ABCF2	ABC28,EST133090,HUSSY-18,M-ABC1	ATP-binding cassette, sub-family F (GCN20), member 2
+ENSG00000140526	ABHD2	LABH2	abhydrolase domain containing 2
+ENSG00000158201	ABHD3	LABH3	abhydrolase domain containing 3
+ENSG00000205858	AC005014.4		Leucine-rich repeat-containing protein ENSP00000371558 
+ENSG00000172421	AC008026.3		EF-hand calcium-binding domain-containing protein 3 
+ENSG00000233913	AC008590.1		
+ENSG00000167642	AC011479.3		Kunitz-type protease inhibitor 2 Precursor (Hepatocyte growth factor activator inhibitor type 2)(HAI-2)(Placental bikunin)
+ENSG00000091436	AC013461.1		Mitogen-activated protein kinase kinase kinase MLT (EC 2.7.11.25)(MLK-like mitogen-activated protein triple kinase)(Sterile alpha motif- and leucine zipper-containing kinase AZK)(Leucine zipper- and sterile alpha motif-containing kinase)(Mixed linea /.../ase-related kinase)(MLK-related kinase)(MRK)(Human cervical cancer suppressor gene 4 protein)(HCCS-4)
+ENSG00000215492	AC021224.2		Putative uncharacterized protein ENSP00000383298 
+ENSG00000131871	AC023024.2		Selenoprotein S (SelS)(VCP-interacting membrane protein)
+ENSG00000197065	AC023632.1		Fibrinogen silencer-binding protein 
+ENSG00000228782	AC040934.1		Putative uncharacterized protein ENSP00000411291 
+ENSG00000250907	AC073342.3		glutathione S-transferase kappa 1 isoform b 
+ENSG00000206100	AC090691.3		cDNA FLJ46459 fis, clone THYMU3020970 
+ENSG00000227202	AC092718.3		PKD1L2 protein Fragment 
+ENSG00000178404	AC100788.1		cDNA FLJ32655 fis, clone TESTI1000025, weakly similar to M.musculus testis-specific protein, DDC8 
+ENSG00000249714	AC116158.1		Protein FAM98B 
+ENSG00000123384	AC137834.2		Prolow-density lipoprotein receptor-related protein 1 Precursor (LRP-1)(Alpha-2-macroglobulin receptor)(A2MR)(Apolipoprotein E receptor)(APOER)(CD91 antigen) [Contains Low-density lipoprotein receptor-related protein 1 85 kDa subunit(LRP-85);Low-den /.../ipoprotein receptor-related protein 1 515 kDa subunit(LRP-515);Low-density lipoprotein receptor-related protein 1 intracellular domain(LRPICD)]
+ENSG00000226210	AC215219.4		Putative uncharacterized protein ENSP00000383542 
+ENSG00000060971	ACAA1		acetyl-CoA acyltransferase 1
+ENSG00000117054	ACADM	ACAD1,MCAD,MCADH	acyl-CoA dehydrogenase, C-4 to C-12 straight chain
+ENSG00000110455	ACCS	ACS,PHACS	1-aminocyclopropane-1-carboxylate synthase homolog (Arabidopsis)(non-functional)
+ENSG00000087085	ACHE	YT	acetylcholinesterase (Yt blood group)
+ENSG00000131473	ACLY	ACL,ATPCL,CLATP	ATP citrate lyase
+ENSG00000122729	ACO1	IREB1,IREBP,IRP1	aconitase 1, soluble
