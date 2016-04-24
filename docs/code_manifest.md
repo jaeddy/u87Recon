@@ -1,5 +1,5 @@
 
-## Code
+## Matlab scripts/functions
 
 + **`textArrayRead.m`:** utility/wrapper function I wrote years ago to make it somewhat easier to read in text files (Matlab probably has something better than this by now).
 
