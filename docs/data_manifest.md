@@ -145,6 +145,25 @@ or 'off'.
 
 ### `experiments`
 
+This folder includes results from other experiments that might be used to
+either constrain or validate model simulations.
+
++ **Growth Curves for Sarah.xlsx:** I don't remember much about this file, or
+who Sarah is for that matter... but it includes results (growth curves) from an
+experiment with different U87 cell lines in DMEM and B-27 media conditions;
+Cory Funk (in the Price lab) might know more.
+
++ **U87MG_Zfactors_082312.xls:** results from an enzyme inhibitor screen
+performed in the lab of David Hockenbery at the Fred Hutchinson Cancer Research
+Center.
+
++ **Enzyme_Inhibitor_List.xls:** list of available enzyme inhibitors with
+characterized targets (from the Hockenbery lab).
+
++ **u87inhibitors.mat:** I don't remember how I imported and formatted the data
+in Matlab, but this file includes the relevant information from the enzyme
+inhibitor screen above, stored as Matlab variables; this file is used as input
+to the script `U87InhibitorScreen.m`.
 
 ## `models`
 
@@ -152,18 +171,52 @@ This folder contains different versions of both the generic (Human Recon) and U8
 
 ### `recon2`
 
+This folder includes assorted versions of the generic human metabolic
+reconstruction (in this case, Human Recon 2) used as a reference / starting
+point for U87 model construction.
+
++ **HR2_CbModel_Dec2012.mat:**
+
++ **HR2plusA_CbModel.mat:**
+
++ **HR2plusA_info.mat:**
+
++ **Recon201_U87.mat:**
+
++ **Recon201.mat:**
+
 ### `u87`
 
+This folder contains data related to a U87-specific metabolic model generated
+by mCADRE.
+
++ **U87_CbModel.mat:**
+
++ **modelStats.xslx:**
+
++ **U87genes.txt:**
+
++ **U87symbols.txt:**
+
++ **U87info.txt:**
 
 ## `mcadre`
 
 This folder contains the final inputs for and outputs from mCADRE.
 
++ **U87mCADREInputs.mat:**
+
++ **U87mCADREResults.mat:**
 
 ## `reference`
 
 This folder contains some reference data from NCBI, mostly for tasks that could be done much more easily with `biomaRt`...
 
++ **gene2ensembl.gz:**
+
++ **Homo_sapiens.gene_info:**
+
++ **symbols2id.mat:**
 
 ## other
 
