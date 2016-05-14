@@ -28,6 +28,13 @@ Organized by language.
 
 + **`createU87mCADREInputs.m`:** This script takes care of the mCADRE pre-processing prior to running mCADRE with Recon1...? Or not: code seems to refer to Recon2.01. Need to sort this out!
 
++ **`read_biomass.m`:** This script reads the biomass equation from a single
+line in a text file and adds the corresponding reaction to a COBRA model.
+
++ **`write_biomass.m`: This script extracts biomass components and coefficients
+from an Excel spreadsheet and writes the formatted biomass equation as a single
+line in a text file.
+
 + **`U87GEODataProcessing.m`:** another pre-processing step - compiling and formatting GEO gene expression evidence for use with mCADRE. Note: I appear to have an updated version of GEO data collection code and results (see `compileGEOData` script and `geo_new` data folder).
 
 + **`processU87genes.m`:** This appears to use a series of steps (including some externally run Python scripts) to look at the distribution of HPA confidence levels across model genes and reactions. I'm not sure if I ever did anything with this, or even finished the script...
