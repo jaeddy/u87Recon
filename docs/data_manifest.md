@@ -216,11 +216,11 @@ This folder contains the final inputs for and outputs from mCADRE.
 
 This folder contains some reference data from NCBI, mostly for tasks that could be done much more easily with `biomaRt`...
 
-+ **gene2ensembl.gz:**
++ **Affy_hg19_gene_mapping.mat:** table with mapping from Affy probe ID to gene symbol for hg19 reference build
 
-+ **Homo_sapiens.gene_info:**
++ **symbols2id.mat:** table with mapping from gene symbol to NCBI gene ID
 
-+ **symbols2id.mat:**
++ **Homo_sapiens.gene_info:** table with mapping from NCBI Entrez gene ID to various other gene identifiers
 
 ## other
 
