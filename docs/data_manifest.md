@@ -51,7 +51,7 @@ files; processing was done with the function `preprocessConsensusPlatform` (whic
 `U87GEODataProcessing.m` (it is also used as input to the same script, if data
 has already been processed)
 
-*this file is pretty large (~40mb); I realized I probably shouldn't put it on
+* this file is pretty large (~40mb); I realized I probably shouldn't put it on
 GitHub
 
 + **U87_GEO_evidence.mat:** data compiled from **all_datasets** .mat file
@@ -153,17 +153,22 @@ who Sarah is for that matter... but it includes results (growth curves) from an
 experiment with different U87 cell lines in DMEM and B-27 media conditions;
 Cory Funk (in the Price lab) might know more.
 
-+ **U87MG_Zfactors_082312.xls:** results from an enzyme inhibitor screen
++ **U87MG_Zfactors_082312.xls*:** results from an enzyme inhibitor screen
 performed in the lab of David Hockenbery at the Fred Hutchinson Cancer Research
 Center.
 
-+ **Enzyme_Inhibitor_List.xls:** list of available enzyme inhibitors with
++ **Enzyme_Inhibitor_List.xls*:** list of available enzyme inhibitors with
 characterized targets (from the Hockenbery lab).
 
-+ **u87inhibitors.mat:** I don't remember how I imported and formatted the data
++ **u87inhibitors.mat*:** I don't remember how I imported and formatted the data
 in Matlab, but this file includes the relevant information from the enzyme
 inhibitor screen above, stored as Matlab variables; this file is used as input
 to the script `U87InhibitorScreen.m`.
+
+* because I'm not sure if the results or information related to the enzyme
+inhibitor screen have been published or should be openly accessible, I've
+removed these files for now; if the data is of interest, Dave Hockenbery
+should be contacted about permission and collaborating.
 
 ## `models`
 
