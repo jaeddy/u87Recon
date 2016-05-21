@@ -35,8 +35,6 @@ line in a text file.
 
 + **`U87GEODataProcessing.m`:** another pre-processing step - compiling and formatting GEO gene expression evidence for use with mCADRE. Note: I appear to have an updated version of GEO data collection code and results (see `compileGEOData` script and `geo_new` data folder).
 
-+ **`processU87genes.m`:** This appears to use a series of steps (including some externally run Python scripts) to look at the distribution of HPA confidence levels across model genes and reactions. I'm not sure if I ever did anything with this, or even finished the script...
-
 + **`compileGEOData.m`:** process gene expression data from GEO to create inputs for mCADRE; uses outputs from R script `importU87AffyData`
 
 + **`convertSBMLToCobra_Recon2.m`**
@@ -54,13 +52,6 @@ line in a text file.
 + **`getHPA_sub.py`:** just seems to be testing out some stuff; should discard.
 
 + **`HPAensembl2gene.py`:** This script uses the ID table in `Homo_sapiens.gene_info` (from NCBI) to convert Ensembl IDs from HPA to NCBI Entrez gene ID; used to produce `U-87_MG_genes.txt`.
-
-+ **`GEOsymbol2gene.py`:** This script uses the same `Homo_sapiens.gene_info` (I should try to find and include this file) table to convert gene symbols in compiled GEO data to Entrez IDs.
-
-+ **`CbModelgene2symbol.py`:** This script converts Entrez IDs from a COBRA model to gene symbols (similar idea to the above GEO/HPA scripts).
-
-+ **`CbModelgene2info.py`:** In this case, it looks like I saved the entire line from the `Homo_sapiens.gene_info` table, rather than just the gene symbol.
-
 
 ## R scripts
 
