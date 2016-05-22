@@ -2,6 +2,8 @@
 
 Data processing steps for model generation, with inputs and outputs for each script used, organized by iteration/version.
 
+**Note:** there were earlier iterations of the workflow as well (i.e., prior to `0.5`), including multiple permutations of U87 model building with MBA and mCADRE. These earlier iterations weren't particularly fruitful (not that the latter versions were much better), and they represent effort from quite a long time ago (2011 and earlier). As such, I've opted not to add or describe any code or files from these iterations in the repository.
+
 ## Iteration `1.0`
 
 This is the most complete version of the workflow, which actually resulted in a draft U87 model and included some subsequent simulations. I believe that the problem I ultimately ran into with this iteration was that imbalances in Recon 2 allowed for "free" growth (i.e., production of biomass with *no* inputs). After putting the project on hold for several months after my defense, I made another push with version `1.5` described below. The more recent iteration, however, also ended due to frustration with the reference human model (Recon 2).

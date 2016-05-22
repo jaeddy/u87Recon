@@ -1,6 +1,6 @@
 # Data
 
-Organized by subfolder.
+Organized by subfolder. Version tags in parentheses indicate the workflow iteration for which the data was generated or used.
 
 ## `evidence`
 
@@ -15,28 +15,15 @@ didn't have an option to download all information for a specific cell type in
 tabular format. Instead, I used some Python scripts to parse HTML tables across
 multiple pages and save Ensembl IDs of expressed proteins.
 
-+ **U-87_MG.txt:** Ensembl IDs of proteins expressed in the U-87 cell line,
-broken into two lists based on 'Strong' or 'Moderate' evidence (I'd have to go
-back and review the code to figure out what my logic was for assigning evidence
-levels); this file was generated with the script `getHPA.py`.
++ **U-87_MG.txt:** (`1.0`, `0.5`, `1.5`) Ensembl IDs of proteins expressed in the U-87 cell line, broken into two lists based on 'Strong' or 'Moderate' evidence (I'd have to go back and review the code to figure out what my logic was for assigning evidence levels); this file was generated with the script `getHPA.py`.
 
-+ **U-87_MG_genes.txt:** this should be the same list of genes/proteins as in
-**U-87_MG.txt**, but with Ensembl IDs replaced with NCBI Entrez IDs (where
-possible); this file was generated with the script `HPAensembl2gene.py` using
-the **Homo_sapiens.gene_info** table to look up IDs
++ **U-87_MG_genes.txt:** (`1.0`, `0.5`, `1.5`) this should be the same list of genes/proteins as in **U-87_MG.txt**, but with Ensembl IDs replaced with NCBI Entrez IDs (where possible); this file was generated with the script `HPAensembl2gene.py` using the **Homo_sapiens.gene_info** table to look up IDs
 
-+ **U-87_MG_neg.txt:** at some point, HPA added lists/tables of proteins that
-stained negatively in cell assays (I collected these lists to potentially use
-as a negative control when validating the U87 model); this file was generated
-with the script `getHPA_neg.py`
++ **U-87_MG_neg.txt:** (`1.0`, `0.5`, `1.5`) at some point, HPA added lists/tables of proteins that stained negatively in cell assays (I collected these lists to potentially use as a negative control when validating the U87 model); this file was generated with the script `getHPA_neg.py`
 
-+ **U-87_MG_neg_genes.txt:** same idea as before, with Ensembl IDs converted to
-NCBI gene IDs with `HPAensembl2gene.py`
++ **U-87_MG_neg_genes.txt:** (`1.0`, `0.5`, `1.5`) same idea as before, with Ensembl IDs converted to NCBI gene IDs with `HPAensembl2gene.py`
 
-+ **U-138_MG.txt, U-138_MG_genes.txt, U-251_MG.txt:** similar types of HPA data
-collected for other glioblastoma cell lines (with the thought to incorporate as
-supporting evidence); these were collected pretty early on and never really
-used.
++ **U-138_MG.txt, U-138_MG_genes.txt, U-251_MG.txt:** similar types of HPA data collected for other glioblastoma cell lines (with the thought to incorporate as supporting evidence); these were collected pretty early on and never really used.
 
 ### `geo`
 
@@ -74,7 +61,7 @@ documented approach.
 This folder nominally includes data that was generated in-house by members of
 the Price lab.
 
-+ **U87_fpkm.mat:** (`1.0`, `0.5`) normalized (FPKM) read count data from an RNA-seq experiment to study U87 with and without EGFR over-expression (and maybe additional conditions) - I don't know what sequencing parameters or alignment/ processing steps were used, but this could probably be tracked down; the first 6 columns represent the control samples (U87 MG WT) and were used as input to `createU87mCADREInputs.m`.
++ **U87_fpkm.mat:** (`1.0`, `0.5`, `1.5`) normalized (FPKM) read count data from an RNA-seq experiment to study U87 with and without EGFR over-expression (and maybe additional conditions) - I don't know what sequencing parameters or alignment/ processing steps were used, but this could probably be tracked down; the first 6 columns represent the control samples (U87 MG WT) and were used as input to `createU87mCADREInputs.m`.
 
 ## `simulation`
 
@@ -166,11 +153,11 @@ This folder contains the final inputs for and outputs from mCADRE.
 
 This folder contains some reference data from NCBI, mostly for tasks that could be done much more easily with `biomaRt`...
 
-+ **Affy_hg19_gene_mapping.mat:** (`1.0`) table with mapping from Affy probe ID to gene symbol for hg19 reference build
++ **Affy_hg19_gene_mapping.mat:** (`1.0`, `0.5`) table with mapping from Affy probe ID to gene symbol for hg19 reference build
 
-+ **symbols2id.mat:** (`1.0`) table with mapping from gene symbol to NCBI gene ID
++ **symbols2id.mat:** (`1.0`, `0.5`) table with mapping from gene symbol to NCBI gene ID
 
-+ **Homo_sapiens.gene_info:** (`1.0`, `1.5`) table with mapping from NCBI Entrez gene ID to various other gene identifiers
++ **Homo_sapiens.gene_info:** (`1.0`, `0.5`, `1.5`) table with mapping from NCBI Entrez gene ID to various other gene identifiers
 
 ## other
 
