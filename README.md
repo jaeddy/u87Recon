@@ -4,11 +4,15 @@ This repository contains code, data, and results from efforts to build a COBRA m
 
 ## Background
 
-I worked on this project off and on during my time as a PhD student and post-doc in the lab of Nathan Price. Some of my earliest efforts on the project date as far back as 2009 and came to an end in early 2014. Over this time, a variety of strategies, data, tools, and reference models were used - more so than I could reasonably hope to share or describe in any sensible way. 
+I worked on this project off and on during my time as a PhD student and post-doc in the lab of Nathan Price. Some of my earliest efforts on the project date as far back as 2009 and came to an end in early 2014. Over this time, a variety of strategies, data, tools, and reference models were used - more so than I could reasonably hope to share or describe in any sensible way. None of these efforts resulted in a final, validated, and published model of U87; however, some pieces of the workflow could potentially be of use to others.
 
 ## Workflow
 
 The most complete iteration of the model building workflow started with Human Recon 2, used **mCADRE** (an extension of **MBA** that I co-developed with Yuliang Wang in the Price lab) to produce a U87-specific draft model, and even included some downstream simulation for testing and validation. This workflow is summarized [**here**](docs/workflow.md) and is labeled as iteration `1.0`. Two other closely related iterations of the workflow (labeled as `0.5` and `1.5`) are also described, though neither were carried as far towards completion.
+
+For more details/text related to the workflow used in iteration `1.0`, you can check out **Chapter 6** of my [**PhD thesis**](docs/Eddy_James_Thesis.pdf), included in the **`docs`** folder.
+
+For an overview of my more recent progress and line of thinking towards the end of the project, I've also included a [**poster**](docs/COBRAPoster2014.pdf) that I presented at the 2014 COBRA Conference in Virginia.
 
 ## Code
 
